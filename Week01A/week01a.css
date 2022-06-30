@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+header nav {
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  background-color: rgb(0, 0, 0);
+}
+header nav .logo {
+  color: white;
+}
+header nav .logo span {
+  color: yellow;
+}
+header nav .download {
+  color: yellow;
+}
+header .hero {
+  height: 90.8vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(83, 81, 81, 0.6)), url(/Week01A/Images/samuele-errico-piccarini-MyjVReZ5GLQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+header .hero .center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+header .hero .center-text h1 {
+  color: white;
+  font-size: 3em;
+}
+header .hero .center-text p {
+  color: white;
+  font-size: 1.5em;
+}
+
+.hero-btn {
+  color: white;
+  border: 1px solid white;
+  padding: 1em;
+}
+
+.row {
+  margin: 2em 0;
+  justify-content: space-around;
+  align-items: center;
+}
+.row .row-item {
+  border: 1px solid white;
+  box-shadow: 0 5px 15px rgba(240, 236, 13, 0.2);
+  width: 25vw;
+  padding: 0.5em;
+}
+
+.about {
+  border: 1px solid green;
+  padding: 2em;
+}
+.about h1 span {
+  color: yellow;
+}
+
+.waitlist {
+  background-color: black;
+  color: white;
+  padding: 3em 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.waitlist h1 {
+  font-size: 5em;
+}
+
+.use {
+  padding: 2em 0;
+}
+.use span {
+  color: yellow;
+}
+.use .row-item {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.use i {
+  font-size: 3em;
+}
+
+footer {
+  background-color: rgb(65, 64, 64);
+  padding: 1em;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  header .hero .center-text {
+    width: 95%;
+  }
+  header .hero .center-text h1 {
+    font-size: 2em;
+  }
+  header .hero .center-text p {
+    font-size: 1em;
+  }
+
+  .about .row {
+    flex-direction: column;
+    gap: 4em;
+  }
+  .about .row .row-item {
+    width: 80vw;
+  }
+
+  .waitlist {
+    gap: 1em;
+  }
+  .waitlist h1 {
+    font-size: 1.5em;
+  }
+  .waitlist .hero-btn {
+    padding: 0.5em;
+  }
+
+  .use .row {
+    flex-direction: column;
+  }
+  .use .row .row-item {
+    width: 80%;
+    margin: 1em 0;
+  }
+  .use .row .fa-solid {
+    transform: rotate(90deg);
+  }
+}
+.flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}/*# sourceMappingURL=week01a.css.map */
