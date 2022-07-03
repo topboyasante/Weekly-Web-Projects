@@ -1,0 +1,209 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce Site</title>
+    <link rel="stylesheet" href="/Week01B/week01B.css">
+    <script src="https://kit.fontawesome.com/799a51071e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>e<span>Commerce</span></h1>
+            </div>
+            <div class="navbar-links" id="nav-links">
+               <div class="container">
+                    <i class="fa-solid fa-circle-xmark close-btn" onclick="closeNavBarLinks()"></i>
+                    <div class="search-bar">
+                        <form id="form" role="search">
+                            <input type="search" id="query" name="q"
+                            placeholder="Search..."
+                            aria-label="Search through site content">
+                            <button> <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg></button>
+                        </form>
+                    </div>
+                    <i class="fa-solid fa-circle-question"></i>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <i class="fa-solid fa-user"></i>
+               </div>
+            </div>
+            <i class="fa-solid fa-bars navbar-toggle" id="nav-toggle" onclick="displayNavBarLinks()"></i>
+        </nav>
+        <section class="slideshow">
+            <div class="ss-item1">
+                <div class="pic-area">
+                    <img src="/Week01B/Images/revolt-164_6wVEHfI-unsplash.jpg" alt="">
+                </div>
+                <div class="text-area">
+                    <h1>70% Off Our Products!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <br>
+                    <a href="#" class="btn">BUY NOW</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--Discounted Products-->
+    <section class="discount">
+        <h1>See Today's Discounted Products!</h1>
+        <p>Grab them while the discount lasts!</p>
+        <div class="row">
+            <div class="row-item">
+                <img src="/Week01B/Images/revolt-164_6wVEHfI-unsplash (1).jpg" alt="shoe">
+                <h3>Nike Red Shoes</h3>
+                <div class="hover-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <span>$300</span>
+                    <h2>$200</h2>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="row-item">
+                <img src="/Week01B/Images/trendest-studio-XZ3EmAIWuz0-unsplash.jpg" alt="shoe">
+                <h3>LV White Shoes</h3>
+                <div class="hover-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <span>$300</span>
+                    <h2>$200</h2>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="row-item">
+                <img src="/Week01B/Images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="shoe">
+                <h3>Nike Brown Shoes</h3>
+                <div class="hover-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <span>$300</span>
+                    <h2>$200</h2>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row-item">
+                <img src="/Week01B/Images/luis-felipe-lins-J2-wAQDckus-unsplash.jpg" alt="shoe">
+                <h3>Nike Airmax White</h3>
+                <div class="hover-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <span>$300</span>
+                    <h2>$200</h2>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="row-item">
+                <img src="/Week01B/Images/paul-volkmer-updW-QUccFE-unsplash.jpg" alt="shoe">
+                <h3>Nike Red Shoes</h3>
+                <div class="hover-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <span>$300</span>
+                    <h2>$200</h2>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+            <div class="row-item">
+                <img src="/Week01B/Images/maksim-larin-ezdrvzA1hZw-unsplash.jpg" alt="shoe">
+                <h3>NB Pink Shoes</h3>
+                <div class="hover-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <span>$300</span>
+                    <h2>$200</h2>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <a href="#" class="btn">See More</a>
+    </section>
+    <!--New Shoes-->
+    <section class="shoes">
+        <div class="header">
+            <h3>Our Lastest Shoes | Get 50% Off!</h3>
+            <a href="#" class="btn">SEE MORE</a>
+        </div>
+        <div class="row">
+            <div class="row-item">
+                <img src="/Week01B/Images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="">
+                <p>Shoes1</p>
+                <br>
+                <a href="#" class="btn">COP NOW</a>
+            </div>
+            <div class="row-item">
+                <img src="/Week01B/Images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="">
+                <p>Shoes1</p>
+                <br>
+                <a href="#" class="btn">COP NOW</a>
+            </div>
+            <div class="row-item">
+                <img src="/Week01B/Images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="">
+                <p>Shoes1</p>
+                <br>
+                <a href="#" class="btn">COP NOW</a>
+            </div>
+            <div class="row-item">
+                <img src="/Week01B/Images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="">
+                <p>Shoes1</p>
+                <br>
+                <a href="#" class="btn">COP NOW</a>
+            </div>
+            <div class="row-item">
+                <img src="/Week01B/Images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="">
+                <p>Shoes1</p>
+                <br>
+                <a href="#" class="btn">COP NOW</a>
+            </div>
+        </div>
+    </section>
+    <section class="shoes">
+        <div class="header">
+            <h3>New Shoes from Balenciaga! | Get 20% Off!</h3>
+            <a href="#" class="btn">SEE MORE</a>
+        </div>
+        <div class="row">
+            <div class="row-item">
+                <img src="/Week01B/Images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="">
+                <p>Shoes1</p>
+                <br>
+                <a href="#" class="btn">COP NOW</a>
+            </div>
+            <div class="row-item">
+                <img src="/Week01B/Images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="">
+                <p>Shoes1</p>
+                <br>
+                <a href="#" class="btn">COP NOW</a>
+            </div>
+            <div class="row-item">
+                <img src="/Week01B/Images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="">
+                <p>Shoes1</p>
+                <br>
+                <a href="#" class="btn">COP NOW</a>
+            </div>
+            <div class="row-item">
+                <img src="/Week01B/Images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="">
+                <p>Shoes1</p>
+                <br>
+                <a href="#" class="btn">COP NOW</a>
+            </div>
+            <div class="row-item">
+                <img src="/Week01B/Images/maksim-larin-NOpsC3nWTzY-unsplash.jpg" alt="">
+                <p>Shoes1</p>
+                <br>
+                <a href="#" class="btn">COP NOW</a>
+            </div>
+        </div>
+    </section>
+   
+    <!--JS-->
+    <script>
+        let navbarLinks = document.getElementById('nav-links')
+        function displayNavBarLinks(){
+            navbarLinks.style.display = 'block';
+        }
+        function closeNavBarLinks(){
+            navbarLinks.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
